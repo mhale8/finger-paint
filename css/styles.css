@@ -1,0 +1,77 @@
+/* Stylehsheet */
+@import url("../fonts/finger-paint/FingerPaint-Regular.ttf");
+/* line 4, /Users/meredithhale/Desktop/finger-paint/css/styles.scss */
+body {
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  padding-top: 10px; }
+
+/* line 15, /Users/meredithhale/Desktop/finger-paint/css/styles.scss */
+h1 {
+  font-size: 3em;
+  font-family: 'FingerPaint-Regular';
+  text-align: center;
+  color: #000000; }
+
+/* line 24, /Users/meredithhale/Desktop/finger-paint/css/styles.scss */
+canvas {
+  background: #fff;
+  display: block;
+  margin: 30px auto 10px;
+  border-radius: 5px;
+  box-shadow: -6px 3px 55px 2px rgba(0, 0, 0, 0.6);
+  cursor: url(../img/finger-paint.png), crosshair; }
+
+/* line 35, /Users/meredithhale/Desktop/finger-paint/css/styles.scss */
+.controls {
+  min-height: 60px;
+  margin: 0 auto;
+  width: 600px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: -6px 3px 55px 2px rgba(0, 0, 0, 0.6); }
+
+/* line 43, /Users/meredithhale/Desktop/finger-paint/css/styles.scss */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 20px 10px 5px;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px; }
+
+/* line 52, /Users/meredithhale/Desktop/finger-paint/css/styles.scss */
+ul li, #newColor {
+  display: block;
+  height: 54px;
+  width: 54px;
+  border-radius: 60px;
+  cursor: pointer;
+  border: 0; }
+
+/* line 61, /Users/meredithhale/Desktop/finger-paint/css/styles.scss */
+ul li {
+  display: inline-block;
+  margin: 0 5px 10px; }
+
+/* line 66, /Users/meredithhale/Desktop/finger-paint/css/styles.scss */
+.green {
+  background: #83ffa4; }
+
+/* line 70, /Users/meredithhale/Desktop/finger-paint/css/styles.scss */
+.blue {
+  background: #8ec7ff; }
+
+/* line 74, /Users/meredithhale/Desktop/finger-paint/css/styles.scss */
+.purple {
+  background: #cdb7ff; }
+
+/* line 78, /Users/meredithhale/Desktop/finger-paint/css/styles.scss */
+.selected {
+  border: 7px solid #384047;
+  width: 40px;
+  height: 40px; }
+
+/*# sourceMappingURL=styles.css.map */
